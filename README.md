@@ -1,51 +1,46 @@
 # AI Problem Solving Project
 
-## 📌 Overview
-This project demonstrates Artificial Intelligence problem-solving techniques using Python and Streamlit.
-
-It includes two AI problems:
-1. Tic-Tac-Toe AI (Game Playing)
-2. Sudoku Solver (Constraint Satisfaction Problem)
+## 📌 Objective
+To implement Artificial Intelligence problem-solving techniques using Python and Streamlit.
 
 ---
 
 ## 🎮 Problem 1: Tic-Tac-Toe AI
 
 ### Algorithms Used:
-- Minimax Algorithm
-- Alpha-Beta Pruning
+- Minimax Algorithm  
+- Alpha-Beta Pruning  
 
 ### Description:
-An interactive Tic-Tac-Toe game where the AI plays optimally against the user.
+An interactive Tic-Tac-Toe game where AI plays optimally against the user.
 
 ### Features:
 - User vs AI gameplay
-- Two AI strategies comparison
+- Algorithm comparison
 - Execution time display
 - Node exploration count
 
 ### Observation:
-Alpha-Beta Pruning is faster and explores fewer nodes than Minimax.
+Alpha-Beta Pruning is more efficient than Minimax.
 
 ---
 
 ## 🧩 Problem 2: Sudoku Solver
 
 ### Algorithm Used:
-- Backtracking (CSP - Constraint Satisfaction Problem)
+- Constraint Satisfaction Problem (Backtracking)
 
 ### Description:
-Solves a 9x9 Sudoku puzzle by filling empty cells while maintaining constraints.
+Solves a 9x9 Sudoku puzzle automatically using AI backtracking.
 
 ### Features:
 - User input grid
-- Instant solving
-- Clean output display
+- Instant solution display
 
 ---
 
 ## 🚀 How to Run
 
-### Install dependencies:
 ```bash
 pip install streamlit
+streamlit run app.py
