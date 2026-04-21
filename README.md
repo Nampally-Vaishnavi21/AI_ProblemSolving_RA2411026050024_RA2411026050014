@@ -1,5 +1,4 @@
-# AI_ProblemSolving_RA2411026050024_RA2411026050014
-# Tic-Tac-Toe AI
+# AI Problem Solving - Tic Tac Toe AI
 
 ## Problem Description
 Develop an interactive Tic-Tac-Toe game where the AI plays optimally.
@@ -9,8 +8,8 @@ Develop an interactive Tic-Tac-Toe game where the AI plays optimally.
 - Alpha-Beta Pruning
 
 ## Comparison
-- Alpha-Beta is faster
-- Explores fewer nodes than Minimax
+- Alpha-Beta is faster than Minimax
+- Explores fewer nodes
 
 ## How to Run
 1. Install dependencies:

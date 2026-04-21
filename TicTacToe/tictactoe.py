@@ -1,12 +1,8 @@
 import time
 
-# Board
-board = [" " for _ in range(9)]
-
 minimax_nodes = 0
 alphabeta_nodes = 0
 
-# Check winner
 def check_winner(b):
     win_states = [(0,1,2),(3,4,5),(6,7,8),
                   (0,3,6),(1,4,7),(2,5,8),
@@ -18,7 +14,6 @@ def check_winner(b):
         return "Draw"
     return None
 
-# Minimax
 def minimax(b, is_max):
     global minimax_nodes
     minimax_nodes += 1
@@ -48,7 +43,6 @@ def minimax(b, is_max):
                 b[i] = " "
         return best
 
-# Alpha-Beta
 def alphabeta(b, is_max, alpha, beta):
     global alphabeta_nodes
     alphabeta_nodes += 1
@@ -86,7 +80,6 @@ def alphabeta(b, is_max, alpha, beta):
                     break
         return best
 
-# Best Move
 def get_best_move(b, method):
     global minimax_nodes, alphabeta_nodes
     minimax_nodes = 0

@@ -27,3 +27,6 @@ winner = check_winner(st.session_state.board)
 
 if winner:
     st.success(f"Winner: {winner}")
+
+if st.button("Restart Game"):
+    st.session_state.board = [" "] * 9
