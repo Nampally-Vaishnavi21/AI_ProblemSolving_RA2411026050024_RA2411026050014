@@ -52,10 +52,22 @@ The AI ensures it never loses by analyzing all possible future moves.
 
 ---
 
-## 📌 Output
-- Interactive Tic-Tac-Toe board
-- Execution time displayed
-- Nodes explored displayed
+### 📊 Sample Output
+
+User Move: X at position 1  
+AI Move: O at position 5  
+
+Board:
+X |   |  
+---------
+  | O |  
+---------
+  |   |  
+
+Result: Draw  
+
+Execution Time: 0.00021 sec  
+Nodes Explored: 549
 
 ---
 
@@ -91,9 +103,17 @@ Sudoku is a Constraint Satisfaction Problem (CSP) where a 9×9 grid must be fill
 
 ---
 
-## 📌 Output
-- Completed Sudoku grid
-- Constraint-based solution
+### 📊 Sample Output
+
+Input:
+0 0 3 0 2 0 6 0 0  
+9 0 0 3 0 5 0 0 1  
+0 0 1 8 0 6 4 0 0  
+
+Output:
+4 8 3 9 2 1 6 5 7  
+9 6 7 3 4 5 8 2 1  
+2 5 1 8 7 6 4 9 3  
 
 ---
 
