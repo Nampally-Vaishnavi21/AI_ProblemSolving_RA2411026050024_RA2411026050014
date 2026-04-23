@@ -1,13 +1,13 @@
-# 🤖 AI Problem Solving Project
+#  AI Problem Solving Project
 
-## 📌 Objective
+##  Objective
 This project demonstrates Artificial Intelligence problem-solving techniques using Python and Streamlit. It includes game AI, constraint satisfaction, and optimization problems.
 
 ---
 
-# 🎮 Application 1 — Tic-Tac-Toe AI (Game Playing System)
+#  Application 1 — Tic-Tac-Toe AI (Game Playing System)
 
-## 📌 Problem Description
+##  Problem Description
 Tic-Tac-Toe is a two-player game where the goal is to get three marks in a row. In this project, an AI opponent is implemented that plays optimally against the user.
 
 The AI ensures it never loses by analyzing all possible future moves.
